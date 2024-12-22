@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mamo/static/css/main.b53245e3.css",
-    "main.js": "/mamo/static/js/main.db5efc80.js",
+    "main.js": "/mamo/static/js/main.48c45a89.js",
     "index.html": "/mamo/index.html",
     "main.b53245e3.css.map": "/mamo/static/css/main.b53245e3.css.map",
-    "main.db5efc80.js.map": "/mamo/static/js/main.db5efc80.js.map"
+    "main.48c45a89.js.map": "/mamo/static/js/main.48c45a89.js.map"
   },
   "entrypoints": [
     "static/css/main.b53245e3.css",
-    "static/js/main.db5efc80.js"
+    "static/js/main.48c45a89.js"
   ]
 }

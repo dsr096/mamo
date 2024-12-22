@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 import About from './components/about';
 import Product from './components/product';
@@ -8,7 +8,7 @@ import Scrollbar from './components/scrollbar';
 
 function App() {
   return (
-    <BrowserRouter basename="/mamo">
+    <HashRouter>
       <Scrollbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

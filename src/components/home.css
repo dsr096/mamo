@@ -13,10 +13,8 @@
     background-color: #333; /* Set the background color */
   }
   
-  /* Prevent overlapping with content */
-  .backimg1 {
-    margin-top: 60px; /* Adjust based on navbar height */
-  }
+  
+ 
   
   /* Navbar styling (preserve your styles) */
   .navbar .meena {
